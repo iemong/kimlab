@@ -1,0 +1,83 @@
+body{
+    background-image: url(../image/saishi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    position: relative;
+}
+
+.you{
+    position: absolute;
+    top: 5%;
+    left: 7.4%;
+}
+
+
+.tope{
+    position: absolute;
+    top:2.75%;
+    left:89.44%;
+}
+
+.toriie{
+    position: absolute;
+    top:8.25%;
+    left:89.44%;
+}
+
+.oomizu{
+    position: absolute;
+    top:65.75%;
+    left:8.48%;
+}
+
+.hangan{
+    position: absolute;
+    top:11.625%;
+    left:16.16%;
+}
+
+.okitsu{
+    position: absolute;
+    top:56.75%;
+    left:31.6%;
+}
+
+.iwakami{
+    position: absolute;
+    top:1.5%;
+    left:70.32%;
+}
+
+.iwakage{
+    position: absolute;
+    top:30.125%;
+    left:84.64%;
+}
+
+.roten{
+    position: absolute;
+    top:69.1%;
+    left:70.32%;
+}
+
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}

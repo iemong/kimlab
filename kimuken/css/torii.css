@@ -1,0 +1,65 @@
+body{
+    background-image: url(../image/torii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    position: relative;
+}
+
+.you{
+    position: absolute;
+    top: 4.7%;
+    left: 3.4%;
+}
+
+
+.misogi{
+    position: absolute;
+    top:64.125%;
+    left:13.8%;
+}
+
+.shokubutu{
+    position: absolute;
+    top:20.125%;
+    left:32.117%;
+}
+
+.sandou{
+    position: absolute;
+    top:39.25%;
+    left:82.6%;
+}
+
+.tope{
+    position: absolute;
+    top:2.75%;
+    left:89.29%;
+}
+
+.saishi{
+    position: absolute;
+        top: 4.6%;
+        left: 53.06%;
+}
+
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
