@@ -6,237 +6,260 @@
 
 
 
-html,
-body {
-	font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;}
 
-ul,
+
+body,
+html {
+    font-family: "ヒラギノ明朝 Pro W3", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	background-color: #000000;
+	min-width: 640px;
+}
+
+li,
 ol,
-li {
-	list-style-type: none;
-}
-img {
-	max-width: 100%;
-	border: none;
-}
-button {
-	border: none;
+ul {
+    list-style-type: none;
 }
 
-/*------------------------
-		top
-------------------------*/
+img {
+    max-width: 100%;
+}
+
+#wrapper {
+    min-height: 750px;
+}
 body#top {
     background-image: url(../images/TOP.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 800px;
     position: relative;
 }
 
+#top .hune,
+#top .icon1,
+#top .icon2,
+#top .you {
+    position: absolute;
+}
 
-#top .title{
+#top .title {
     text-align: center;
     padding: 46px 10px 0;
 }
 
 #top .icon1 {
-    position: absolute;
-    top:27.6%;
-    left:10.32%;
+    top: 27.6%;
+    left: 10.32%;
 }
 
-#top .you{
-    position: absolute;
+#top .you {
     top: 5%;
     left: 6.3%;
 }
 
-#top .icon2{
-    position: absolute;
+#top .icon2 {
     top: 41.875%;
     left: 52.72%;
 }
 
-#top .hune{
-    position: absolute;
+#top .hune {
     top: 72.375%;
     left: 43.68%;
 }
 
-#top div#glayLayer{
-	display:none;
-	position:fixed;
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:black;
-	filter:alpha(opacity=60);
-	opacity: 0.60;
-}
-#top #overLayer{
-	display:none;
-	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
-}
-/*------------------------
-		saishi
-------------------------*/
-body#saishi{
+
+
+body#saishi {
     background-image: url(../images/saishi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 800px;
+
     position: relative;
 }
 
-#saishi .you{
+#saishi .you {
     position: absolute;
     top: 5%;
     left: 7.4%;
 }
 
-
-#saishi .tope{
+#saishi .tope,
+#saishi .toriie{
     position: absolute;
-    top:2.75%;
-    left:89.44%;
+    left: 89.44%;
 }
 
-#saishi　.toriie{
+#saishi .tope {
+    top: 2.75%;
+}
+
+#saishi .toriie {
+    top: 8.25%;
+}
+
+#saishi .henkan {
     position: absolute;
-    top:8.25%;
-    left:89.44%;
+    top: 52.875%;
+    left: 39.52%;
 }
 
-#saishi　.oomizu{
+#saishi .oomizu {
     position: absolute;
-    top:65.75%;
-    left:8.48%;
+    top: 65.75%;
+    left: 8.48%;
 }
 
-#saishi　.hangan{
+#saishi .hangan {
     position: absolute;
-    top:11.625%;
-    left:16.16%;
+    top: 11.625%;
+    left: 16.16%;
 }
 
-#saishi　.okitsu{
+#saishi .okitsu {
     position: absolute;
-    top:56.75%;
-    left:31.6%;
+    top: 60.75%;
+    left: 31.6%;
 }
 
-#saishi　.iwakami{
+#saishi .iwakami {
     position: absolute;
-    top:1.5%;
-    left:70.32%;
+    top: 1.5%;
+    left: 70.32%;
 }
 
-#saishi　.iwakage{
+#saishi .iwakage {
     position: absolute;
-    top:30.125%;
-    left:84.64%;
+    top: 30.125%;
+    left: 84.64%;
 }
 
-#saishi　.roten{
+#saishi .roten {
     position: absolute;
-    top:69.1%;
-    left:70.32%;
+    top: 69.1%;
+    left: 70.32%;
 }
 
-#saishi　div#glayLayer{
-	display:none;
-	position:fixed;
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:black;
-	filter:alpha(opacity=60);
-	opacity: 0.60;
-}
-#saishi　#overLayer{
-	display:none;
-	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
-}
-/*------------------------
-		torii
-------------------------*/
-body#torii{
+body#torii {
     background-image: url(../images/torii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 800px;
+
     position: relative;
-
-
 }
 
-#torii .you{
+#torii .misogi,
+#torii .saishi,
+#torii .sandou,
+#torii .shokubutu,
+#torii .tope,
+#torii .saishie,
+#torii .you {
     position: absolute;
+}
+
+#torii .you {
     top: 4.7%;
     left: 3.4%;
 }
 
+#torii .misogi {
+    top: 64.125%;
+    left: 13.8%;
+}
 
-#torii .misogi{
+#torii .shokubutu {
+    top: 20.125%;
+    left: 32.117%;
+}
+
+#torii .sandou {
+    top: 39.25%;
+    left: 82.6%;
+}
+
+#torii .tope {
+    top: 2.75%;
+    left: 89.29%;
+}
+
+#torii .saishie{
+    top: 8.25%;
+    left: 89.29%;
+}
+
+#torii .saishi {
+    top: 4.6%;
+    left: 53.06%;
+}
+
+
+/*-------------------
+        modal
+-------------------*/
+#saishi div#glayLayer,
+#top div#glayLayer,
+#torii div#glayLayer {
+    display: none;
+    width: 100%;
+    filter: alpha(opacity=60);
+    opacity: .6
+}
+#top div#glayLayer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #000;
+}
+
+#top #overLayer {
+    display: none;
     position: absolute;
-    top:64.125%;
-    left:13.8%;
+	margin: auto;
+	width: 80%;
+    top: 0;
+    left: 0;
+	right: 0;
+    bottom: 0;
+}
+#saishi div#glayLayer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #000;
 }
 
-#torii .shokubutu{
-    position: absolute;
-    top:20.125%;
-    left:32.117%;
+#saishi #overLayer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
 }
-
-#torii .sandou{
-    position: absolute;
-    top:39.25%;
-    left:82.6%;
+#torii div#glayLayer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #000;
 }
-
-#torii .tope{
-    position: absolute;
-    top:2.75%;
-    left:89.29%;
+#torii #overLayer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
 }
-
-#torii .saishi{
-    position: absolute;
-        top: 4.6%;
-        left: 53.06%;
+#overLayer .overLayerContent{
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
 }
-
-#torii div#glayLayer{
-	display:none;
-	position:fixed;
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:black;
-	filter:alpha(opacity=60);
-	opacity: 0.60;
-}
-#torii #overLayer{
-	display:none;
-	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
+iframe {
+	position: absolute;
+	width: 100% !important;
+	height: 100% !important;
+	top: 0;
 }
